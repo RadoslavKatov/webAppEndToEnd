@@ -1,6 +1,6 @@
 # Azure SQL Server
 resource "azurerm_mssql_server" "webapp-ete-sql-server" {
-  name                         = "webappsqlserver"
+  name                         = "webapp-ete-sql-server"
   resource_group_name          = azurerm_resource_group.webapp-ete-rg.name
   location                     = azurerm_resource_group.webapp-ete-rg.location
   version                      = "12.0"

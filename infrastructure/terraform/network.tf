@@ -18,7 +18,7 @@ resource "azurerm_public_ip" "webapp-ete-puip" {
   name                = "webapp-ete-puip"
   resource_group_name = azurerm_resource_group.webapp-ete-rg.name
   location            = azurerm_resource_group.webapp-ete-rg.location
-  allocation_method   = "Dynamic"
+  allocation_method   = "Static"
 }
 
 # Network Interface
